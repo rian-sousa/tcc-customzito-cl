@@ -25,5 +25,9 @@ namespace CustomBancoLib
         [ForeignKey("IdColecao")]
         [Required]
         public int IdColecao { get; set; }
+
+        public decimal? Avaliacao { get; set; }
+
+        public int? qtd { get; set; }
     }
 }
